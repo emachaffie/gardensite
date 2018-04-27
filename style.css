@@ -1,0 +1,80 @@
+/* Base Styles */
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: #10381b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px 0px;
+  padding: 0px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: helvetica, arial, sans-serif;
+  font-weight:bold;
+}
+
+li a {
+  display: block;
+/*   background: #f1f1f1; */
+  padding: 20px;
+  text-decoration: none;
+  color: #10381b;
+}
+
+img {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Class Styles*/
+
+.flowerText {
+}
+
+.flowerPic {
+ border-radius: 20px;
+}
+
+.container1, .container2 {
+  display: flex;
+  padding: 30px;
+}
+
+.container2 {
+  background: #f1f1f1;
+}
+
+/* ID Styles*/
+
+#mainPhoto {
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+#aboutPic {
+  float: left;
+  width: 250px;
+  margin: 10px 20px 20px 20px;
+}
+
+#aboutPic {
+  border-radius: 20px;
+}
+
+#hours, #location {
+  text-indent: 20px;
+}
